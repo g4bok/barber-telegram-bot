@@ -1,0 +1,14 @@
+functions/node_modules/
+
+# dotenv environment variables file
+functions/.env
+
+functions/.eslintrc.js
+
+firebase.json
+.firebaserc
+database.rules.json
+
+test.js
+
+functions/others/serviceAccountKey.json
