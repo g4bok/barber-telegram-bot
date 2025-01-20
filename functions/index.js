@@ -15,6 +15,7 @@ const serviceAccount = require("./others/serviceAccountKey.json");
 initializeApp({
   credential: cert(serviceAccount),
 });
+
 const bot = new Telegraf(process.env.TOKEN, {
   telegram: { webhookReply: true },
 });
